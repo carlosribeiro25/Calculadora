@@ -1,0 +1,35 @@
+:root {
+  --font-mono: 'Courier New', monospace;
+  --font-sans: 'Segoe UI', sans-serif;
+  --button-size: 4rem;
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --spacing-4: 1rem;
+  --border-radius: 0.5rem;
+  --border-radius-lg: 1rem;
+  --border-width: 1px;
+
+  --background: #f3f4f6;
+  --foreground: #111827;
+
+  --secondary: #e5e7eb;
+  --secondary-foreground: #111827;
+  --secondary-hover: #d1d5db;
+
+  --operation: #6366f1;
+  --operation-foreground: #fff;
+  --operation-hover: #4f46e5;
+
+  --equals: #10b981;
+  --equals-foreground: #fff;
+  --equals-hover: #059669;
+
+  --clear: #f87171;
+  --clear-foreground: #fff;
+  --clear-hover: #ef4444;
+
+  --accent: #d1d5db;
+
+  --shadow-lg: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --transition-colors: 0.3s ease-in-out;
+}

@@ -1,0 +1,103 @@
+/* Tema Claro (padrão) */
+:root {
+    /* Cores base */
+    --background: #769292;
+    --foreground: #0f0f0f;
+  
+    /* Cores da interface */
+    --card: #ddccdc;
+    --card-foreground: #0f172a;
+    --popover: #ffffff;
+    --popover-foreground: #0f172a;
+  
+    /* Cores primárias */
+    --primary: #6366f1;
+    --primary-foreground: #ffffff;
+    --primary-hover: #4f46e5;
+  
+    /* Cores secundárias */
+    --secondary: #57b64f;
+    --secondary-foreground: #0f172a;
+    --secondary-hover: #396b57;
+  
+    /* Cores de destaque */
+    --accent: #f8fafc;
+    --accent-foreground: #0f172a;
+  
+    /* Cores de borda */
+    --border: #e2e8f0;
+    --input: #e2e8f0;
+  
+    /* Cores de estado */
+    --ring: #1518b6;
+    --destructive: #ef8844;
+    --destructive-foreground: #5a0f0f;
+  
+    /* Cores de operação */
+    --operation: #0d2b49;
+    --operation-foreground: #6366f1;
+    --operation-hover: #242323;
+  
+    /* Cores de resultado */
+    --equals: #db0a0a;
+    --equals-foreground: #ffffff;
+    --equals-hover:#1b1b1b;
+  
+    /* Cores de limpar */
+    --clear: #1b1b1b;
+    --clear-foreground: #e0caca;
+    --clear-hover: #c71913;
+  }
+  
+  /* Tema Escuro */
+  [data-theme="dark"] {
+    /* Cores base */
+    --background: #0f172a;
+    --foreground: #f8fafc;
+    transition: background-color 0.4s ease, color 0.4s ease;
+  
+    /* Cores da interface */
+    --card: #1e293b;
+    --card-foreground: #f8fafc;
+    --popover: #1e293b;
+    --popover-foreground: #f8fafc;
+  
+    /* Cores primárias */
+    --primary: #6366f1;
+    --primary-foreground: #ffffff;
+    --primary-hover: #818cf8;
+  
+    /* Cores secundárias */
+    --secondary: #334155;
+    --secondary-foreground: #f8fafc;
+    --secondary-hover: #475569;
+  
+    /* Cores de destaque */
+    --accent: #1e293b;
+    --accent-foreground: #f8fafc;
+  
+    /* Cores de borda */
+    --border: #334155;
+    --input: #334155;
+  
+    /* Cores de estado */
+    --ring: #6366f1;
+    --destructive: #ef4444;
+    --destructive-foreground: #ffffff;
+  
+    /* Cores de operação */
+    --operation: #334155;
+    --operation-foreground: #818cf8;
+    --operation-hover: #475569;
+  
+    /* Cores de resultado */
+    --equals: #6366f1;
+    --equals-foreground: #ffffff;
+    --equals-hover: #818cf8;
+  
+    /* Cores de limpar */
+    --clear: #7f1d1d;
+    --clear-foreground: #fecaca;
+    --clear-hover: #991b1b;
+  }
+  
